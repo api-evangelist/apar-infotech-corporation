@@ -1,21 +1,98 @@
 aid: apar-infotech-corporation
 name: Apar Infotech Corporation
-description: Apar Infotech Corporation is a company surfaced as a portfolio company of insight-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: 'Apar Infotech Corporation, which operates publicly as Apar Technologies,
+  is a Singapore-headquartered IT services and consulting group serving clients across
+  Asia Pacific, the Middle East and the Americas. The firm delivers technology consulting
+  and application services, data management and business intelligence, collaboration
+  and content management, enterprise applications, managed services, staff augmentation
+  and collaborative development centres, with practice areas spanning artificial intelligence,
+  cloud, CRM, ServiceNow workflow, RPA/BPM hyperautomation, enterprise mobility and
+  IoT. Apar also publishes a small set of its own products — the Otomeyt HR technology
+  and technical-assessment platform, the Innoculate IoT monitoring platform, and the
+  eLite SIS and eLite BAM applications. Apar is part of the Apar Group and is backed
+  by Insight Partners. As of this enrichment pass Apar publishes no public developer
+  portal, API documentation, machine-readable API specification or self-service sign-up;
+  its API work is delivered inside client engagements rather than as a public product
+  surface.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.apartechnologies.com/wp-content/uploads/2025/02/cropped-Favicon-Photoroom-1-192x192.png
 url: https://raw.githubusercontent.com/api-evangelist/apar-infotech-corporation/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - insight-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- IT Services
+- Consulting
+- Systems Integration
+- Staff Augmentation
+- Managed Services
+- Data and Analytics
+- Enterprise Applications
+- Internet of Things
+- HR Technology
+- Singapore
 apis: []
+common:
+- type: Website
+  url: https://www.apartechnologies.com/
+- type: About
+  url: https://www.apartechnologies.com/transforming-business/
+- type: Blog
+  url: https://www.apartechnologies.com/news-insights/
+- type: BlogRSS
+  url: https://www.apartechnologies.com/feed/
+- type: Support
+  url: https://www.apartechnologies.com/contact-us/
+- type: ContactUs
+  url: https://www.apartechnologies.com/contact-us/
+- type: TermsOfService
+  url: https://www.apartechnologies.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.apartechnologies.com/privacy-policy/
+- type: Careers
+  url: https://www.apartechnologies.com/careers/
+- type: CaseStudies
+  url: https://www.apartechnologies.com/success-stories/
+- type: Leadership
+  url: https://www.apartechnologies.com/leadership/
+- type: LinkedIn
+  url: https://sg.linkedin.com/company/apar-technologies
+- type: Investor
+  url: https://www.insightpartners.com/portfolio/apar-infotech-corporation/
+- type: Product
+  name: Otomeyt
+  url: https://otomeyt.ai/
+- type: Product
+  name: Otomeyt HR Tech Platform (Apar)
+  url: https://www.apartechnologies.com/otomeyt-hr-tech-platform/
+- type: WellKnown
+  url: well-known/apar-infotech-corporation-well-known.yml
+- type: DomainSecurity
+  url: security/apar-infotech-corporation-domain-security.yml
+- type: LLMsTxt
+  url: llms/apar-infotech-corporation-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

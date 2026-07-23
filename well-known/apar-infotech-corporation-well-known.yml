@@ -1,0 +1,80 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of the Apar Technologies corporate host and the Otomeyt product host
+host: https://www.apartechnologies.com
+notes: >-
+  Apar publishes no /.well-known/ discovery surface on any host it controls. Every
+  probed path returned 404 (a browser User-Agent was used — an unauthenticated curl
+  is answered 403 by the corporate WAF, which is not a discovery document). No API
+  host exists to probe separately: apis.yml carries no APIs and no baseURL, because
+  Apar publishes no public API. The 2026-07-20 pass widened the probe beyond the
+  corporate host to the Otomeyt product host (otomeyt.ai / otomeyt.com, live) and to
+  candidate developer hosts api./developer./docs.apartechnologies.com, none of which
+  resolve. innoculate.io does not resolve.
+hosts:
+- host: https://www.apartechnologies.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /robots.txt
+    status: 200
+- host: https://otomeyt.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /openapi.json
+    status: 404
+  - path: /swagger.json
+    status: 404
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+unresolved_hosts:
+- api.apartechnologies.com
+- developer.apartechnologies.com
+- docs.apartechnologies.com
+- api.otomeyt.ai
+- innoculate.io
+negative_findings:
+  packages:
+    npm: no packages matching otomeyt or apartechnologies
+    pypi: otomeyt, apar-technologies, innoculate all 404
+  github_orgs:
+    probed:
+    - apartechnologies
+    - apar-technologies
+    - otomeyt
+    - aparinfotech
+    result: all 404 — Apar publishes no GitHub organization
+  vulnerability_disclosure: none found (0-working/probe-security-programs.py)
+  trust_center: none found (0-working/probe-security-programs.py)

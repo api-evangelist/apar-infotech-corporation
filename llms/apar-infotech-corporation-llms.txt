@@ -1,0 +1,57 @@
+# Apar Infotech Corporation (Apar Technologies)
+
+> Singapore-headquartered IT services and consulting group operating across Asia Pacific, the Middle East and the Americas. Apar delivers technology consulting and application services, data management and business intelligence, collaboration and content management, enterprise applications, managed services, staff augmentation and collaborative development centres. Apar is part of the Apar Group and is backed by Insight Partners.
+
+## Status
+
+Apar publishes **no public API**. As of 2026-07-20 there is no developer portal, no API
+documentation, no machine-readable API specification (OpenAPI/AsyncAPI/GraphQL), no
+self-service sign-up and no `/.well-known/` discovery surface on the corporate host.
+A second enrichment pass on 2026-07-20 widened the probe to the Otomeyt product host
+(otomeyt.ai, live) and to candidate developer hosts (api./developer./docs.
+apartechnologies.com, none resolve), and searched npm, PyPI and GitHub for a first-party
+client library or organization — none exist. Apar's API and integration work is delivered
+inside client engagements rather than as a public product. This file is generated from
+the API Evangelist catalog entry, not from a provider-published `llms.txt`.
+
+## Company
+
+- [Apar Technologies](https://www.apartechnologies.com/): Corporate site.
+- [Transforming Business](https://www.apartechnologies.com/transforming-business/): Digital services and solutions overview.
+- [Leadership](https://www.apartechnologies.com/leadership/): Executive team.
+- [Success Stories](https://www.apartechnologies.com/success-stories/): Client case studies.
+- [News & Insights](https://www.apartechnologies.com/news-insights/): Company blog.
+- [Careers](https://www.apartechnologies.com/careers/): Open roles.
+- [Contact Us](https://www.apartechnologies.com/contact-us/): Sales and regional HR contacts.
+
+## Services
+
+- [Artificial Intelligence](https://www.apartechnologies.com/artificial-intelligence-ai/)
+- [Big Data & Analytics](https://www.apartechnologies.com/big-data-analytics/)
+- [Collaboration Portals & Digital Experience Platforms](https://www.apartechnologies.com/collaboration-portals-digital-experience-platforms/)
+- [Enterprise Mobility](https://www.apartechnologies.com/enterprise-mobility/)
+- [ServiceNow Workflow](https://www.apartechnologies.com/servicenow-workflow/)
+- [CRM](https://www.apartechnologies.com/crm/)
+- [RPA, BPM & Hyperautomation](https://www.apartechnologies.com/rpa-bpm-hyperautomation/)
+- [IoT](https://www.apartechnologies.com/iot/)
+- [Managed Services](https://www.apartechnologies.com/managed-services/)
+- [Collaborative Development Centres](https://www.apartechnologies.com/collaborative-development-centres/)
+
+## Products
+
+- [Otomeyt HR Tech Platform](https://www.apartechnologies.com/otomeyt-hr-tech-platform/): AI-driven talent acquisition and technical code assessment.
+- [Innoculate IoT Platform](https://www.apartechnologies.com/innoculate-iot-platform/): SaaS platform for monitoring and analysing IoT device data.
+- [eLite SIS for Education](https://www.apartechnologies.com/elite-sis-for-education/)
+- [eLite BAM for Business Automation](https://www.apartechnologies.com/elite-bam-for-business-automation/)
+- [Workplace Automation Platforms](https://www.apartechnologies.com/workplace-automation-platforms/)
+
+## Legal
+
+- [Terms and Conditions](https://www.apartechnologies.com/terms-and-conditions/)
+- [Privacy Policy](https://www.apartechnologies.com/privacy-policy/)
+
+## Catalog artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/apar-infotech-corporation/refs/heads/main/apis.yml): APIs.json catalog entry.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/apar-infotech-corporation/refs/heads/main/well-known/apar-infotech-corporation-well-known.yml)
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/apar-infotech-corporation/refs/heads/main/security/apar-infotech-corporation-domain-security.yml)

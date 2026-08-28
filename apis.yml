@@ -14,6 +14,17 @@ description: 'Apar Infotech Corporation, which operates publicly as Apar Technol
   portal, API documentation, machine-readable API specification or self-service sign-up;
   its API work is delivered inside client engagements rather than as a public product
   surface.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown

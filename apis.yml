@@ -1,5 +1,5 @@
 aid: apar-infotech-corporation
-name: Apar Infotech Corporation
+name: Apar Infotech
 description: 'Apar Infotech Corporation, which operates publicly as Apar Technologies,
   is a Singapore-headquartered IT services and consulting group serving clients across
   Asia Pacific, the Middle East and the Americas. The firm delivers technology consulting
@@ -121,3 +121,4 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-legal-name: Apar Infotech Corporation
